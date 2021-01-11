@@ -1,0 +1,40 @@
+---
+layout: post
+categories: jekyll update
+title:  "PRELIM: Quiz 2.1"
+---
+![Q21](https://user-images.githubusercontent.com/75419236/104218631-fa2c9800-5477-11eb-8a58-437e7d1e6856.png)
+Follow the procedure:
+1. Create a directory named "quiz21" in your student number directory in Quiz 1.3.
+2. Create a markdown file named "README.md" in the newly created directory with the following contents:
+    1. How to create an Ansible Configuration.
+    2. How to create an Ansible Inventory.
+    3. How to create an Ad-hoc Ansible command with *setup* and *shell* module.
+3. Then create a Pull request and put your forked repo in the only question of this quiz (Note answer this quiz as well as create a pull request).
+
+### OUTPUT:  
+Github: [https://github.com/qrjhjimenez/sysad2-12021/tree/quiz1.3/1811243/quiz21](https://github.com/qrjhjimenez/sysad2-12021/tree/quiz1.3/1811243/quiz21)
+
+## Create an Ansible Configuration.
+1. Make sure you have ansible package in your OS.
+2. Create a file using the command `vim ansible.cfg`.
+3. Go inside the file and populate the file with a basic information.
+4. The file should contain the default remote user, inventory, and/or host verification if necessary.
+5. Press the **Esc** key then write and quit to save the file.  
+  
+
+## Create an Ansible Inventory.
+1. Create the inventory file using the command `vim <inventory_filename>`.
+2. Populate the inventory file with the IP address of the host in their respective group.
+3. Hit the **Esc** key then write and quiz to save the file.
+
+
+## Create an Ad-hoc Ansible command with *setup* module.
+1. Run the ad-hoc command `ansible <group or host_name> -m setup`.
+2. Using the setyp module, you will be able to gather facts about a system. 
+
+
+## Create an Ad-hoc Ansible command with *shell* module.
+1. Run the ad-hoc command `ansible <group or host_name> -m shell -a <bash arguments>`.
+2. Using the shell module, you will be able to run a shell-specific syntax.
+

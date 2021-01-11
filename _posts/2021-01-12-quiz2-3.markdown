@@ -1,0 +1,70 @@
+---
+layout: post
+categories: jekyll update
+title:  "PRELIM: Quiz 2.3"
+---
+![Q23](https://user-images.githubusercontent.com/75419236/104220107-fb5ec480-5479-11eb-8ef6-dda2f6c8ac8c.png)
+Follow the procedure:
+1. Create a directory named "quiz23" in your student number directory in Quiz 1.3
+2. Create a markdown file named "README.md" in the newly created directory with the directory summary.
+3. Optimize [Quiz 2.2](https://tip.instructure.com/courses/14417/quizzes/121833) with roles.
+4. Then create a Pull request and put your forked repo in the only question of this quiz (Note answer this quiz as well as create a pull request).  
+### OUTPUT:  
+Github: [https://github.com/qrjhjimenez/sysad2-12021/tree/quiz2.3](https://github.com/qrjhjimenez/sysad2-12021/tree/quiz2.3)  
+`├── 1811243`  
+`│   ├── quiz23`  
+`│   │   ├── ansible.cfg`  
+`│   │   ├── group_vars`  
+`│   │   │   └── ubuntu`  
+`│   │   ├── playbook.yml`  
+`│   │   ├── README.md`  
+`│   │   ├── roles`  
+`│   │   │   ├── apache_task`  
+`│   │   │   │   ├── defaults`  
+`│   │   │   │   │   └── main.yml`  
+`│   │   │   │   ├── handlers`  
+`│   │   │   │   │   └── main.yml`  
+`│   │   │   │   ├── meta`  
+`│   │   │   │   │   └── main.yml`  
+`│   │   │   │   ├── README.md`  
+`│   │   │   │   ├── tasks`  
+`│   │   │   │   │   └── main.yml`  
+`│   │   │   │   ├── tests`  
+`│   │   │   │   │   ├── inventory`  
+`│   │   │   │   │   └── test.yml`  
+`│   │   │   │   └── vars`  
+`│   │   │   │       └── main.yml`  
+`│   │   │   ├── mysql_task`  
+`│   │   │   │   ├── defaults`  
+`│   │   │   │   │   └── main.yml`  
+`│   │   │   │   ├── handlers`  
+`│   │   │   │   │   └── main.yml`  
+`│   │   │   │   ├── meta`  
+`│   │   │   │   │   └── main.yml`  
+`│   │   │   │   ├── README.md`  
+`│   │   │   │   ├── tasks`  
+`│   │   │   │   │   └── main.yml`  
+`│   │   │   │   ├── tests`  
+`│   │   │   │   │   ├── inventory`  
+`│   │   │   │   │   └── test.yml`  
+`│   │   │   │   └── vars`  
+`│   │   │   │       └── main.yml`  
+`│   │   │   └── php_task`  
+`│   │   │       ├── defaults`  
+`│   │   │       │   └── main.yml`  
+`│   │   │       ├── handlers`  
+`│   │   │       │   └── main.yml`  
+`│   │   │       ├── meta`  
+`│   │   │       │   └── main.yml`  
+`│   │   │       ├── README.md`  
+`│   │   │       ├── tasks`  
+`│   │   │       │   └── main.yml`  
+`│   │   │       ├── tests`  
+`│   │   │       │   ├── inventory`  
+`│   │   │       │   └── test.yml`  
+`│   │   │       └── vars`  
+`│   │   │           └── main.yml`  
+`│   │   └── ubuntu`  
+`│   └── README.md`  
+`└── README.md`  
+

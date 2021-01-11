@@ -1,0 +1,83 @@
+---
+layout: post
+categories: jekyll update
+title:  "PRELIM: Hands-on Activity 2"
+---
+![r (33)](https://user-images.githubusercontent.com/75419236/104220518-95267180-547a-11eb-98d4-01cfea075573.png)
+1. Create an account in Github  
+
+	 Username should be your given initials and last name followed by -tip (e.g.  ajcanlas-tip)
+	 Use your TIP email address for this (if you have already linked your email with GitHub create a separate one)
+	 Verify your account in your email in GitHub,
+![activity2-1](https://user-images.githubusercontent.com/75419236/104205490-6eac0a80-5469-11eb-9f03-3756e2c481a8.png)  
+
+2. Create a repository with your username (in my case it is ajcanlas-tip) without any files, and it should be public.
+![HA2 2](https://user-images.githubusercontent.com/75419236/104205960-f5f97e00-5469-11eb-891b-3eb7fae735d3.png)  
+
+3. In your Alpine VM clone the repository you just created in my case this is my url [https://github.com/ajcanlas-tip/ajcanlas-tip.git](https://github.com/ajcanlas-tip/ajcanlas-tip.git)  
+![HA2 3](https://user-images.githubusercontent.com/75419236/104206321-54bef780-546a-11eb-9a73-a39f8a6b7f30.png)
+
+4. Create a profile with Markdown this is a cheat sheat (Links to an external site.) in a "README.md" file
+
+	 README.md should have the following:
+    1. Your full name
+
+    2. Year Level
+
+    3. Interests
+
+    4. email address
+
+    5. Computer specs (CPU/Ram size/Disk type and size)
+
+5. To add it to your profile add the README.md file commit it then push it in the repository (to push a repository use git push -u origin master)
+
+	 Commands:
+
+	 `git add README.md`
+
+	 `git commit -m "First commit"`
+
+	 `git push -u origin master`
+![HA2 4](https://user-images.githubusercontent.com/75419236/104207112-31487c80-546b-11eb-86f2-bfeec08efa09.png)
+6. Fork this repository [https://github.com/ajcanlas-tip/sysad2-12021.git](https://github.com/ajcanlas-tip/sysad2-12021.git)
+![HA 2 5](https://user-images.githubusercontent.com/75419236/104208717-c3e91b80-546b-11eb-97ac-cb234c7385bd.png)  
+7. Clone your newly forked repository with git clone *https://github.com/< your username >/sysad2-12021.git* and  go in the repository directory.
+![HA 2 6](https://user-images.githubusercontent.com/75419236/104208705-c186c180-546b-11eb-94c0-0ea2436c9fa5.png)
+8. Make a new branch named "activity2" using git branch activity2 and *git checkout activity2*
+![HA 2 7 ](https://user-images.githubusercontent.com/75419236/104208844-f135c980-546b-11eb-9ce3-3c5ae160c66e.png)
+9. Make a new new remote upstream with git 
+![HA 2 8](https://user-images.githubusercontent.com/75419236/104208847-f266f680-546b-11eb-94e0-5ab3c2042175.png)
+10. Create your directory with your username, create a directory named "activity2" add the previous README.md file as HA2.md
+
+	Command used:
+
+    1.  `mkdir <your username>`
+
+    2. `mkdir activity2`
+
+    3. `cp <path of your README.md file> HA2.md`
+![HA 2 9](https://user-images.githubusercontent.com/75419236/104209195-5b4e6e80-546c-11eb-9f29-9fcbb461e76f.png)
+11. add,commit and push it to your activity2 branch
+
+	 Commands used:
+
+    1. `git add HA2.md`
+
+    2. `git commit -s -n "activity2"`
+
+    3. `git push -u origin upstream`
+![HA 2 10](https://user-images.githubusercontent.com/75419236/104209878-31497c00-546d-11eb-91e4-64d39116d761.png)
+
+12. Request a pull request for the master branch in [https://github.com/ajcanlas-tip/sysad2-12021.git] (https://github.com/ajcanlas-tip/sysad2-12021.git) and activity2 branch of your forked repository
+![HA 2 11](https://user-images.githubusercontent.com/75419236/104209877-30b0e580-546d-11eb-9d02-16967b137009.png)  
+	 This will be recorded based on your PR.  
+
+### OUTPUT:  
+Github: [https://github.com/qrjhjimenez/sysad2-12021/tree/activity2](https://github.com/qrjhjimenez/sysad2-12021/tree/activity2)  
+
+`├── qrjhjimenez`  
+`│   └── activity2`  
+`│       └── HA2.md`  
+`└── README.md`  
+
