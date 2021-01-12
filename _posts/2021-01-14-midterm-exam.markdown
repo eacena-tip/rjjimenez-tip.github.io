@@ -178,13 +178,4 @@ Github: [https://github.com/qrjhjimenez/sysad2-12021/tree/midterm-exam](https://
 `│               │   └── test.yml`  
 `│               └── vars`  
 `│                   └── main.yml`  
-`└── README.md`
-~
-~
-~
-~
-~
-~
-~
-~
--- INSERT --                                                                                  
+`└── README.md`                                                                                 
