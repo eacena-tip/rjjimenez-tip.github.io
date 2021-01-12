@@ -1,34 +1,34 @@
 ---
 layout: post
 categories: jekyll update
-title:  "PRELIM: Hands-on Activity 5"
+title:  "MIDTERM: Hands-on Activity 6"
 ---
-![HA5](https://user-images.githubusercontent.com/75419236/104220791-f77f7200-547a-11eb-8d8a-4eedc6c509fa.png)
+![HA6](https://user-images.githubusercontent.com/75419236/104272123-6ee2ef00-54d7-11eb-87d3-520d21457ebb.png)
 1. Fork this repository [https://github.com/ajcanlas-tip/sysad2-12021.git](https://github.com/ajcanlas-tip/sysad2-12021.git)
 
-2. Clone your newly forked repository. 
+2. Clone your newly forked repository.
 
-3. Make a new branch named "activity5" from master branch using *git branch activity5* and *git checkout activity5*
+3. Make a new branch named "activity6" from master branch using *git branch activity6* and *git checkout activity6*
 
-*Note: To Prevent Conflicts Create a directory with your username as its name and go inside of it, and create a directory called "activity5" and go inside it.*
+4. Make a new new remote upstream with git remote add upstream  [https://github.com/ajcanlas-tip/sysad2-12021.git](https://github.com/ajcanlas-tip/sysad2-12021.git)
 
-4. Make a new new remote upstream with git remote add upstream [https://github.com/ajcanlas-tip/sysad2-12021.git](https://github.com/ajcanlas-tip/sysad2-12021.git)
+5. Create a playbook that installs dhcpd, bind9, vsftpd, samba, httpd, mariadb in both Ubuntu and Centos (use Roles to optimize the playbook)
 
-5. Optimize the playbook in Hands-on Activity 4: Ansible Playbooks
+6. Create different plays in installing per service and identify it as a group in Inventory file.
 
-7. add,commit and push it to your activity5 branch
+7. add,commit and push it to your activity6 branch
 
-8. Request a pull request for the master branch in [https://github.com/ajcanlas-tip/sysad2-12021.git](https://github.com/ajcanlas-tip/sysad2-12021.git)  and activity5 branch of your forked repository.  
+8. Request a pull request for the master branch in [https://github.com/ajcanlas-tip/sysad2-12021.git](https://github.com/ajcanlas-tip/sysad2-12021.git)  and activity6 branch of your forked repository.
 
 ### OUTPUT:  
-Github: [https://github.com/qrjhjimenez/sysad2-12021/tree/activity5](https://github.com/qrjhjimenez/sysad2-12021/tree/activity5)  
-`├── qrjhjimenez`  
-`│   └── activity5`  
-`│       ├── ansible.cfg`  
-`│       ├── installer.yaml`  
-`│       ├── inventoryfile`  
+Github: [https://github.com/qrjhjimenez/sysad2-12021/tree/activity6](https://github.com/qrjhjimenez/sysad2-12021/tree/activity6)
+
+`├── 1811243`  
+`│   └── activity6`  
+`│       ├── playact6.yml`  
+`│       ├── README.md`  
 `│       └── roles`  
-`│           ├── CentosInstall`  
+`│           ├── centos`  
 `│           │   ├── defaults`  
 `│           │   │   └── main.yml`  
 `│           │   ├── handlers`  
@@ -43,7 +43,7 @@ Github: [https://github.com/qrjhjimenez/sysad2-12021/tree/activity5](https://git
 `│           │   │   └── test.yml`  
 `│           │   └── vars`  
 `│           │       └── main.yml`  
-`│           └── UbuntuInstall`  
+`│           └── ubuntu`  
 `│               ├── defaults`  
 `│               │   └── main.yml`  
 `│               ├── handlers`  

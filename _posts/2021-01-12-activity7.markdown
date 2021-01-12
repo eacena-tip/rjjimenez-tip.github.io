@@ -1,0 +1,71 @@
+---
+layout: post
+categories: jekyll update
+title:  "MIDTERM: Hands-on Activity 7"
+---
+![HA7](https://user-images.githubusercontent.com/75419236/104272489-2b3cb500-54d8-11eb-8040-338c83bea1c4.png)
+1. Fork this repository[https://github.com/ajcanlas-tip/sysad2-12021.git](https://github.com/ajcanlas-tip/sysad2-12021.git)
+
+2. Clone your newly forked repository. 
+
+3. Make a new branch named "activity7" from master branch using *git branch activity7* and *git checkout activity7*
+
+4. Make a new remote upstream with git remote add upstream [https://github.com/ajcanlas-tip/sysad2-12021.git](https://github.com/ajcanlas-tip/sysad2-12021.git)
+
+5. Create a playbook that installs ELK, Nagios, Grafana + Prometheus in both Ubuntu and Centos (use Roles to optimize the playbook)
+
+6. Create different plays in installing per service and identify it as a group in Inventory file.
+
+7. add,commit and push it to your activity7 branch
+
+8. Request a pull request for the master branch in [https://github.com/ajcanlas-tip/sysad2-12021.git](https://github.com/ajcanlas-tip/sysad2-12021.git) and activity7 branch of your forked repository  
+
+### OUTPUT:  
+Github: [https://github.com/qrjhjimenez/sysad2-12021/tree/activity7](https://github.com/qrjhjimenez/sysad2-12021/tree/activity7)  
+`├── 1811243`  
+`│   └── activity7`  
+`│       ├── act7.yml`  
+`│       ├── config.yaml`  
+`│       ├── needed_files`  
+`│       │   ├── 02-beats-input.conf`  
+`│       │   ├── 10-syslog-filter.conf`  
+`│       │   ├── 30-elasticsearch-output.conf`  
+`│       │   ├── elasticsearch.repo`  
+`│       │   ├── grafana_nginx`  
+`│       │   ├── grafana.repo`  
+`│       │   ├── kibana_config`  
+`│       │   ├── prometheus_config`  
+`│       │   └── prometheus_service`  
+`│       ├── README.md`  
+`│       └── roles`  
+`│           ├── centos`  
+`│           │   ├── defaults`  
+`│           │   │   └── main.yml`  
+`│           │   ├── handlers`  
+`│           │   │   └── main.yml`  
+`│           │   ├── meta`  
+`│           │   │   └── main.yml`  
+`│           │   ├── README.md`  
+`│           │   ├── tasks`  
+`│           │   │   └── main.yml`  
+`│           │   ├── tests`  
+`│           │   │   ├── inventory`  
+`│           │   │   └── test.yml`  
+`│           │   └── vars`  
+`│           │       └── main.yml`  
+`│           └── ubuntu`  
+`│               ├── defaults`  
+`│               │   └── main.yml`  
+`│               ├── handlers`  
+`│               │   └── main.yml`  
+`│               ├── meta`  
+`│               │   └── main.yml`  
+`│               ├── README.md`  
+`│               ├── tasks`  
+`│               │   └── main.yml`  
+`│               ├── tests`  
+`│               │   ├── inventory`  
+`│               │   └── test.yml`  
+`│               └── vars`  
+`│                   └── main.yml`  
+`└── README.md`
