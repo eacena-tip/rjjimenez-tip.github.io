@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: jekyll update
-title:  "MIDTERM: Hands-on Activity 7"
+title:  "FINAL: Hands-on Activity 7"
 ---
 ![HA7](https://user-images.githubusercontent.com/75419236/104272489-2b3cb500-54d8-11eb-8040-338c83bea1c4.png)
 1. Fork this repository[https://github.com/ajcanlas-tip/sysad2-12021.git](https://github.com/ajcanlas-tip/sysad2-12021.git)

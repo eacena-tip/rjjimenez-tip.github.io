@@ -18,7 +18,7 @@ title:  "FINAL EXAM: Hands-On"
 
 	 4.3 Install and configure one monitoring tool that can be installed in Debian, Centos and OpenSuse servers (if it is a stack there should be option of different host)
 
-	 4.4 Change Motd as "Ansible Managed by *<username>*"
+	 4.4 Change Motd as "Ansible Managed by * < username > *"
 
 5. push and commit your final-exam branch in the VM (no need for ansible.cfg upon pushing)
 
