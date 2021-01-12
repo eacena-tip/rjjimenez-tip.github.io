@@ -27,7 +27,7 @@ title:  "MIDTERM EXAM: Hands-On"
 7. For your midterm exam to be counted, please paste your repository link as an answer in this exam.  
 
 ### OUTPUT:
-Github: [https://github.com/qrjhjimenez/sysad2-12021/tree/midterm-exam](https://github.com/qrjhjimenez/sysad2-12021/tree/midterm-exam])  
+Github: [https://github.com/qrjhjimenez/sysad2-12021/tree/midterm-exam](https://github.com/qrjhjimenez/sysad2-12021/tree/midterm-exam)  
 `├── 1811243`  
 `│   └── midterm-exam`  
 `│       ├── 02-beats-input.conf`  
