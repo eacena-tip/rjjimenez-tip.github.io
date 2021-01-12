@@ -3,9 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-This webfolio was made by using jekyll
+##This portfolio was made by using jekyll
 
-### Name: Ryan Joshua Jimenez
-### Section: CPE31S5
+# I am Ryan Joshua Jimenez from CPE31S5 and this is my website portfolio from my course CPE 232-CPE31S6 - Managing Enterprise Servers.
 
-# HAVE A GOOD DAY
+### HAVE A GOOD DAY!!
