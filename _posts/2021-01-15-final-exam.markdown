@@ -29,4 +29,181 @@ title:  "FINAL EXAM: Hands-On"
 *Note: Extra points if you will implement the said services via containerization.*  
 
 ### OUTPUT:  
-Github:
+Github: [https://github.com/qrjhjimenez/sysad2-12021/tree/final-exam](https://github.com/qrjhjimenez/sysad2-12021/tree/final-exam)  
+
+`├── README.md`  
+`├── ansible.cfg`  
+`├── config.yaml`  
+`├── final-exam.yml`  
+`├── inventoryfinal`  
+`└── roles`  
+`│   ├── centos_ftp`  
+`│   │   ├── README.md`  
+`│   │   ├── defaults`  
+`│   │   │   └── main.yml`  
+`│   │   ├── files`  
+`│   │   ├── handlers`  
+`│   │   │   └── main.yml`  
+`│   │   ├── meta`  
+`│   │   │   └── main.yml`  
+`│   │   ├── tasks`  
+`│   │   │   └── main.yml`  
+`│   │   ├── templates`  
+`│   │   ├── tests`  
+`│   │   │   ├── inventory`  
+`│   │   │   └── test.yml`  
+`│   │   └── vars`  
+`│   │       └── main.yml`  
+`│   ├── centos_nagios`  
+`│   │   ├── README.md`  
+`│   │   ├── defaults`  
+`│   │   │   └── main.yml`  
+`│   │   ├── files`  
+`│   │   ├── handlers`  
+`│   │   │   └── main.yml`  
+`│   │   ├── meta`  
+`│   │   │   └── main.yml`  
+`│   │   ├── tasks`  
+`│   │   │   └── main.yml`  
+`│   │   ├── templates`  
+`│   │   ├── tests`  
+`│   │   │   ├── inventory`  
+`│   │   │   └── test.yml`  
+`│   │   └── vars`  
+`│   │       └── main.yml`  
+`│   ├── debian_ftp`  
+`│   │   ├── README.md`  
+`│   │   ├── defaults`  
+`│   │   │   └── main.yml`  
+`│   │   ├── files`  
+`│   │   ├── handlers`  
+`│   │   │   └── main.yml`  
+`│   │   ├── meta`  
+`│   │   │   └── main.yml`  
+`│   │   ├── tasks`  
+`│   │   │   └── main.yml`  
+`│   │   ├── templates`  
+`│   │   ├── tests`  
+`│   │   │   ├── inventory`  
+`│   │   │   └── test.yml`  
+`│   │   └── vars`  
+`│   │       └── main.yml`  
+`│   ├── debian_nagios`  
+`│   │   ├── README.md`  
+`│   │   ├── defaults`  
+`│   │   │   └── main.yml`  
+`│   │   ├── files`  
+`│   │   ├── handlers`  
+`│   │   │   └── main.yml`  
+`│   │   ├── meta`  
+`│   │   │   └── main.yml`  
+`│   │   ├── tasks`  
+`│   │   │   └── main.yml`  
+`│   │   ├── templates`  
+`│   │   ├── tests`  
+`│   │   │   ├── inventory`  
+`│   │   │   └── test.yml`  
+`│   │   └── vars`  
+`│   │       └── main.yml`  
+`│   ├── git_clone_centos`  
+`│   │   ├── README.md`  
+`│   │   ├── defaults`  
+`│   │   │   └── main.yml`  
+`│   │   ├── files`  
+`│   │   ├── handlers`  
+`│   │   │   └── main.yml`  
+`│   │   ├── meta`  
+`│   │   │   └── main.yml`  
+`│   │   ├── tasks`  
+`│   │   │   └── main.yml`  
+`│   │   ├── templates`  
+`│   │   ├── tests`  
+`│   │   │   ├── inventory`  
+`│   │   │   └── test.yml`  
+`│   │   └── vars`  
+`│   │       └── main.yml`  
+`│   ├── git_clone_debian`  
+`│   │   ├── README.md`  
+`│   │   ├── defaults`  
+`│   │   │   └── main.yml`  
+`│   │   ├── files`  
+`│   │   ├── handlers`  
+`│   │   │   └── main.yml`  
+`│   │   ├── meta`  
+`│   │   │   └── main.yml`  
+`│   │   ├── tasks`  
+`│   │   │   └── main.yml`  
+`│   │   ├── templates`  
+`│   │   ├── tests`  
+`│   │   │   ├── inventory`  
+`│   │   │   └── test.yml`  
+`│   │   └── vars`  
+`│   │       └── main.yml`  
+`│   ├── git_clone_suse`  
+`│   │   ├── README.md`  
+`│   │   ├── defaults`  
+`│   │   │   └── main.yml`  
+`│   │   ├── files`  
+`│   │   ├── handlers`  
+`│   │   │   └── main.yml`  
+`│   │   ├── meta`  
+`│   │   │   └── main.yml`  
+`│   │   ├── tasks`  
+`│   │   │   └── main.yml`  
+`│   │   ├── templates`  
+`│   │   ├── tests`  
+`│   │   │   ├── inventory`  
+`│   │   │   └── test.yml`  
+`│   │   └── vars`  
+`│   │       └── main.yml`  
+`│   ├── motd`  
+`│   │   ├── README.md`  
+`│   │   ├── defaults`  
+`│   │   │   └── main.yml`  
+`│   │   ├── files`  
+`│   │   ├── handlers`  
+`│   │   │   └── main.yml`  
+`│   │   ├── meta`  
+`│   │   │   └── main.yml`  
+`│   │   ├── tasks`  
+`│   │   │   └── main.yml`  
+`│   │   ├── templates`  
+`│   │   ├── tests`  
+`│   │   │   ├── inventory`  
+`│   │   │   └── test.yml`  
+`│   │   └── vars`  
+`│   │       └── main.yml`  
+`│   ├── suse_ftp`  
+`│   │   ├── README.md`  
+`│   │   ├── defaults`  
+`│   │   │   └── main.yml`  
+`│   │   ├── files`  
+`│   │   ├── handlers`  
+`│   │   │   └── main.yml`  
+`│   │   ├── meta`  
+`│   │   │   └── main.yml`  
+`│   │   ├── tasks`  
+`│   │   │   └── main.yml`  
+`│   │   ├── templates`  
+`│   │   ├── tests`  
+`│   │   │   ├── inventory`  
+`│   │   │   └── test.yml`  
+`│   │   └── vars`  
+`│   │       └── main.yml`  
+`│   └── suse_nagios`  
+`│       ├── README.md`  
+`│       ├── defaults`  
+`│       │   └── main.yml`  
+`│       ├── files`  
+`│       ├── handlers`  
+`│       │   └── main.yml`  
+`│       ├── meta`  
+`│       │   └── main.yml`  
+`│       ├── tasks`  
+`│       │   └── main.yml`  
+`│       ├── templates`  
+`│       ├── tests`  
+`│       │   ├── inventory`  
+`│       │   └── test.yml`  
+`│       └── vars`  
+`│           └── main.yml`  
